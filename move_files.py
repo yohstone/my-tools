@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 import shutil
 
@@ -25,3 +27,12 @@ for file in filesList:
 		#print(file)
 		moveFiles(filePath, rootPath)
 
+
+
+
+
+
+
+# fpath,fname=os.path.split(dstfile)    #分离文件名和路径
+# os.makedirs(fpath)                    #创建路径
+# shutil.copyfile(srcfile,dstfile)      #复制文件
